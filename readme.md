@@ -1,6 +1,8 @@
 # Clear 1.0 
 Contributors: Philip
+
 Requires at least: WordPress 4.4
+
 Tested up to: WordPress 4.5 
 
 # Description 
