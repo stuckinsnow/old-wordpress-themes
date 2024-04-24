@@ -6,9 +6,7 @@ Requires at least: WordPress 4.4
 Tested up to: WordPress 4.5 
 
 # Description 
-This theme was built by me in about 2019, and will likely not function at all. I am uploading it for posterity sake and because I really liked the menu I designed. It is great to see how far I have come as a developer.
-
-All of my code is complete trash in this, and the CSS is a mess.
+This theme was built by me in about 2019, and will likely not function at all. I am uploading it because I really liked the menu I designed, and it is great to see how far I have come as a developer. My code quality in this is poor, and the CSS a mess. 
 
 
 https://github.com/stuckinsnow/wordpress-clear/assets/126236947/87d21ba4-6a66-4339-87b4-510c4f0dc454
