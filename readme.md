@@ -1,3 +1,7 @@
+# Note 
+
+My code quality in this is beyond extremely poor, and the CSS is a mess. This is not an example of the quality of my work but rather proof I have dabbled in web development over the years.
+
 # Clear 1.0 
 Contributors: Philip
 
@@ -6,7 +10,7 @@ Requires at least: WordPress 4.4
 Tested up to: WordPress 4.5 
 
 # Description 
-This theme was built by me in about 2019, and will likely not function at all. I am uploading it because I really liked the menu I designed. My code quality in this is beyond extremely poor, and the CSS is a mess. This is not an example of my work but rather to be used as proof I have dabbled in web development over the years.
+This theme was built by me in about 2019, and will likely not function at all. I am uploading it because I really liked the menu I designed.
 
 
 https://github.com/stuckinsnow/wordpress-clear/assets/126236947/87d21ba4-6a66-4339-87b4-510c4f0dc454
