@@ -1,0 +1,38 @@
+
+
+
+.site-header-menu.toggled-on,
+.no-js .site-header-menu {
+    display: block;
+    font-size: large;
+    position: relative;
+    background-color: #000000;
+    margin-top: -20vh;
+    top: 0px;
+    width: 100%;
+    text-indent: 10%;
+    padding: 0%;
+    height: 85vh;
+    z-index: 1;
+   	-webkit-transition: all 2s; 
+   	transition: all 2s;
+}
+
+.main-navigation li {
+    border-top: 0px;
+    position: relative;
+}
+
+.main-navigation .primary-menu {
+	border-bottom: 0px;
+	margin-top: 20%;
+}
+
+.main-navigation a {
+	color: red;
+	font-size: x-large;
+}
+
+.dropdown-toggle {
+	display: none;
+}

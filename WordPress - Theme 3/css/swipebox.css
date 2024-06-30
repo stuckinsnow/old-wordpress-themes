@@ -1,0 +1,335 @@
+/*! Swipebox v1.3.0 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */
+html.swipebox-html.swipebox-touch
+{
+	overflow: hidden!important;
+}
+#swipebox-overlay img
+{
+	border: none!important;
+}
+#swipebox-overlay
+{
+	height: 100%;
+	left: 0;
+	moz-user-select: none;
+	ms-user-select: none;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	user-select: none;
+	webkit-user-select: none;
+	width: 100%;
+	z-index: 99999!important;
+}
+#swipebox-container
+{
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+#swipebox-slider
+{
+	cursor: pointer;
+	display: none;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	transition: transform .4s ease;
+	webkit-transition: -webkit-transform .4s ease;
+	white-space: nowrap;
+	width: 100%;
+}
+#swipebox-slider .slide
+{
+	display: inline-block;
+	height: 100%;
+	line-height: 1px;
+	text-align: center;
+	width: 100%;
+}
+#swipebox-slider .slide:before
+{
+	content: "";
+	display: inline-block;
+	height: 50%;
+	margin-right: -1px;
+	width: 1px;
+}
+#swipebox-slider .slide .swipebox-inline-container,#swipebox-slider .slide .swipebox-video-container,#swipebox-slider .slide img
+{
+	display: inline-block;
+	height: auto;
+	margin: 0;
+	max-height: 100%;
+	max-width: 100%;
+	padding: 0;
+	vertical-align: middle;
+	width: auto;
+}
+
+#swipebox-slider .slide img {
+	display: inline-block;
+	opacity: .4;
+}
+
+#swipebox-slider div.slide.current img {
+	display: inline-block;
+	margin: 0;
+	opacity: .8;
+}
+
+
+#swipebox-slider .slide .swipebox-video-container
+{
+	background: 0 0;
+	box-sizing: border-box;
+	max-height: 100%;
+	max-width: 1140px;
+	padding: 5%;
+	webkit-box-sizing: border-box;
+	width: 100%;
+}
+#swipebox-slider .slide .swipebox-video-container .swipebox-video
+{
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	width: 100%;
+}
+#swipebox-slider .slide .swipebox-video-container .swipebox-video iframe
+{
+	height: 100%!important;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%!important;
+}
+#swipebox-slider .slide-loading
+{
+	background: url(../img/loader.gif) center center no-repeat;
+}
+#swipebox-bottom-bar,#swipebox-top-bar
+{
+	height: 50px;
+	left: 0;
+	position: absolute;
+	transition: .5s;
+	webkit-transition: .5s;
+	width: 100%;
+	z-index: 999;
+}
+#swipebox-bottom-bar
+{
+	/*
+	bottom: -50px; 
+	*/
+	bottom: 50px;
+	width: 50%;
+	margin: auto;
+	right: 0;
+	position: absolute;
+}
+
+
+#swipebox-bottom-bar.visible-bars
+{
+	/*
+	transform: translate3d(0,-50px,0);
+	webkit-transform: translate3d(0,-50px,0);
+	*/
+}
+#swipebox-top-bar
+{
+	/*
+	top: -50px;
+	*/
+	top: 0;
+}
+#swipebox-top-bar.visible-bars
+{
+	/*
+	transform: translate3d(0,50px,0);
+	webkit-transform: translate3d(0,50px,0);
+	*/
+}
+#swipebox-title
+{
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+#swipebox-close,#swipebox-next,#swipebox-prev
+{
+	background-image: url(../img/icons.png);
+	background-repeat: no-repeat;
+	border: none!important;
+	cursor: pointer;
+	height: 50px;
+	text-decoration: none!important;
+	top: 0;
+	width: 50px;
+}
+#swipebox-arrows
+{
+	display: block;
+	height: 50px;
+	margin: 0 auto;
+	width: 100%;
+}
+#swipebox-prev
+{
+	background-position: -32px 13px;
+	float: left;
+}
+#swipebox-next
+{
+	background-position: -78px 13px;
+	float: right;
+}
+#swipebox-close
+{
+	background-position: 15px 12px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 9999;
+}
+.swipebox-no-close-button #swipebox-close
+{
+	display: none;
+}
+#swipebox-next.disabled,#swipebox-prev.disabled
+{
+	opacity: .3;
+}
+.swipebox-no-touch #swipebox-overlay.rightSpring #swipebox-slider
+{
+	animation: rightSpring .3s;
+	webkit-animation: rightSpring .3s;
+}
+.swipebox-no-touch #swipebox-overlay.leftSpring #swipebox-slider
+{
+	animation: leftSpring .3s;
+	webkit-animation: leftSpring .3s;
+}
+.swipebox-touch #swipebox-container:after,.swipebox-touch #swipebox-container:before
+{
+	backface-visibility: hidden;
+	content: ' ';
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	transition: all .3s ease;
+	webkit-backface-visibility: hidden;
+	webkit-transition: all .3s ease;
+	width: 20px;
+	z-index: 999;
+}
+.swipebox-touch #swipebox-container:before
+{
+	box-shadow: inset 10px 0 10px -8px #656565;
+	left: 0;
+	webkit-box-shadow: inset 10px 0 10px -8px #656565;
+}
+.swipebox-touch #swipebox-container:after
+{
+	box-shadow: inset -10px 0 10px -8px #656565;
+	right: 0;
+	webkit-box-shadow: inset -10px 0 10px -8px #656565;
+}
+.swipebox-touch #swipebox-overlay.leftSpringTouch #swipebox-container:before,.swipebox-touch #swipebox-overlay.rightSpringTouch #swipebox-container:after
+{
+	opacity: 1;
+}
+@-webkit-keyframes rightSpring
+{
+	0%
+	{
+		left: 0;
+	}
+	50%
+	{
+		left: -30px;
+	}
+	100%
+	{
+		left: 0;
+	}
+}
+@keyframes rightSpring
+{
+	0%
+	{
+		left: 0;
+	}
+	50%
+	{
+		left: -30px;
+	}
+	100%
+	{
+		left: 0;
+	}
+}
+@-webkit-keyframes leftSpring
+{
+	0%
+	{
+		left: 0;
+	}
+	50%
+	{
+		left: 30px;
+	}
+	100%
+	{
+		left: 0;
+	}
+}
+@keyframes leftSpring
+{
+	0%
+	{
+		left: 0;
+	}
+	50%
+	{
+		left: 30px;
+	}
+	100%
+	{
+		left: 0;
+	}
+}
+@media screen and (min-width:800px)
+{
+	#swipebox-close
+	{
+		right: 10px;
+	}
+	#swipebox-arrows
+	{
+		max-width: 800px;
+		width: 92%;
+	}
+}
+#swipebox-overlay
+{
+	background: #FF5000;
+}
+#swipebox-bottom-bar,#swipebox-top-bar
+{
+	background: #000;
+	opacity: .95;
+	text-shadow: 1px 1px 1px #000;
+}
+#swipebox-top-bar
+{
+	color: #fff!important;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 15px;
+	line-height: 43px;
+}

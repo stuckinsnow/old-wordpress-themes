@@ -1,0 +1,3 @@
+[03-Mar-2012 17:16:46] PHP Fatal error:  Call to undefined function  get_header() in /home/philip/public_html/wp-content/themes/mygrid/index_ipe8ac0ni.php on line 1
+[03-Mar-2012 17:17:59] PHP Fatal error:  Call to undefined function  get_header() in /home/philip/public_html/wp-content/themes/mygrid/page.php on line 1
+[03-Mar-2012 17:18:18] PHP Fatal error:  Call to undefined function  get_header() in /home/philip/public_html/wp-content/themes/mygrid/index.php on line 1
