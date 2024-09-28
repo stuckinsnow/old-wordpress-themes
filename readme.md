@@ -4,7 +4,7 @@ These are four themes, three of which were modified from templates, made in 2019
 
 # Note 
 
-The code in these is beyond extremely poor--the CSS is particularly messy. I wrote some of the PHP and jQuery e.g. [jQuery Launch File](https://github.com/stuckinsnow/old-wordpress-themes/blob/main/WordPress%20-%20Theme%202/js/jquery.launch.js), [Page Portfolio File](https://github.com/stuckinsnow/old-wordpress-themes/blob/main/WordPress%20-%20Theme%203/page-portfolio.php) and [Functions File](https://github.com/stuckinsnow/old-wordpress-themes/blob/main/WordPress%20-%20Theme%201/functions.php) but it was mostly from copying and pasting, without a true understanding. 
+The code quality in these is extremely poor, particularly the CSS, which is quite messy. I wrote some of the PHP and jQuery e.g. [jQuery Launch File](https://github.com/stuckinsnow/old-wordpress-themes/blob/main/WordPress%20-%20Theme%202/js/jquery.launch.js), [Page Portfolio File](https://github.com/stuckinsnow/old-wordpress-themes/blob/main/WordPress%20-%20Theme%203/page-portfolio.php) and [Functions File](https://github.com/stuckinsnow/old-wordpress-themes/blob/main/WordPress%20-%20Theme%201/functions.php) but it was mostly built from copying and pasting i.e. without a true understanding. 
 
 ### Requirements
 
