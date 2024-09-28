@@ -1,6 +1,8 @@
-## I am keeping these because I plan to replicate the menu design, and it's comical to see the difference in my code quality. This is not representative of my skill today.
+# This is not representative of my skill today
 
-# Note 
+I am keeping these because I plan to replicate the menu design, and it's comical to see the difference in my code quality.
+
+#  Note
 
 I wrote some of the PHP and jQuery e.g. [jQuery Launch File](https://github.com/stuckinsnow/old-wordpress-themes/blob/main/WordPress%20-%20Theme%202/js/jquery.launch.js), [Page Portfolio File](https://github.com/stuckinsnow/old-wordpress-themes/blob/main/WordPress%20-%20Theme%203/page-portfolio.php) and [Functions File](https://github.com/stuckinsnow/old-wordpress-themes/blob/main/WordPress%20-%20Theme%201/functions.php) but it was mostly built from copying and pasting i.e. without a true understanding. 
 
